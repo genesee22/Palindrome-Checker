@@ -1,0 +1,102 @@
+body {
+    background-color: #254336;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    margin-top: 130px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    color: #DAD3BE;
+}
+
+.palindrome {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 150px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+    background-color: #e4e4e4;
+    margin-bottom: 30px;
+}
+
+
+#text-above {
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    font-size: 21px;
+}
+
+#input {
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #e4e4e4;
+    border: 2px solid #254336;
+    border-radius: 12px;
+}
+
+#check-btn {
+    margin-left: 12px;
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #6B8A7A;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#check-btn:hover {
+    background-color: #769686;
+    transition: 0.3s;
+}
+
+#check-btn:active {
+    background-color: #587266;
+    transition: 0.1s;
+}
+
+.palindrome-explanation {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 80px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    background-color: #85a193;;
+}
+
+.bulb {
+    height: 100px;
+}
+
+#bulb-img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+#explanation-text {
+    width: 390px;
+    color: white;
+    font-size: 17px;
+    margin: 0%;
+}
+
+
+
+
